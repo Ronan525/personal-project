@@ -2,8 +2,6 @@
 <html lang="en">
 
 <head>
-
-   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A serene space for relaxation and mindfulness.">
@@ -22,7 +20,7 @@
 
 <body>
     <!-- Bootstrap 5 Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,8 +45,16 @@
         </div>
     </nav>
 
-    <h1>hello there i am testing the normal font</h1>
-    <h2>this should be in the other font i forgot the name uhh inconsolata or something</h2>
+    <!-- Hero Image Section -->
+    <section class="hero-image" style="background-image: url(assets/images/hero.png); height: 80vh; background-size: cover; background-position: center; position: relative;">
+        <div style="background-color: rgba(0, 0, 0, 0.5); position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0;"></div>
+        <div class="container h-100 d-flex align-items-start justify-content-center" style="position: relative; z-index: 1;">
+            <div class="text-center text-black" style="padding: 35px;">
+                <h1 class="display-4" style="color: #FFCA28; font-weight: bold;">Serene Space</h1>
+                <p class="lead" style="color: #FFCA28; font-weight: bold;">Helpful tips to improve your wellbeing</p>
+            </div>
+        </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
