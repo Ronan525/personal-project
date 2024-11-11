@@ -20,7 +20,7 @@
 
 <body>
     <!-- Bootstrap 5 Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container-fluid flex-column">
             <a class="navbar-brand" href="#" style="font-size: 1.5rem; color: #FFCA28; font-weight: bold;">Serene Space</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +29,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#" style="color:#FFCA28;">Lists</a>
+                        <a class="nav-link active" aria-current="true" href="#" style="color:#FFCA28;">Lists</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" style="color:#FFCA28;">About</a>
@@ -51,55 +51,71 @@
         </div>
     </section>
 
-    <!-- Carousel Section -->
-    <section class="carousel-section py-5">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <!-- Testimonials -->
+    <section class="testimonials py-5">
+        <div class="container">
+            <div id="Carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="card">
+                                    <img src="assets/images/edward-smedward.jpg" class="card-img-top rounded-circle mx-auto d-block mt-3" alt="Jane Doe" style="width: 70px; height: 70px; object-fit: cover;">
+                                    <div class="card-body">
+                                        <p class="card-text inconsolata-font">"How do I write a review? And my name isn't Edward, it's Steve! 0 stars!"</p>
+                                        <h5 class="card-title inconsolata-font">- Edward Smedward</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="card">
+                                    <img src="assets/images/marcus-parkus.jpg" class="card-img-top rounded-circle mx-auto d-block mt-3" alt="John Smith" style="width: 70px; height: 70px; object-fit: cover;">
+                                    <div class="card-body">
+                                        <p class="card-text inconsolata-font">"I'm not usually one to write a review, but this site is awesome. I think the person who made it is very cool!."</p>
+                                        <h5 class="card-title inconsolata-font">- Marcus Parkus</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="card">
+                                    <img src="assets/images/mary-ruth.jpg" class="card-img-top rounded-circle mx-auto d-block mt-3" alt="Emily Johnson" style="width: 70px; height: 70px; object-fit: cover;">
+                                    <div class="card-body">
+                                        <p class="card-text inconsolata-font">"I used to throw tables and chairs if I lost in bingo, now I accept my loss and move on. Thanks Serene Space!"</p>
+                                        <h5 class="card-title inconsolata-font">- Mary Ruth</h5>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="card">
+                                    <img src="assets/images/edward-smedward.jpg" class="card-img-top rounded-circle mx-auto d-block mt-3" alt="Emily Johnson" style="width: 70px; height: 70px; object-fit: cover;">
+                                    <div class="card-body">
+                                        <p class="card-text inconsolata-font">"I figured out how to change my name. How do I delete a review? I actually really like this website. Sorry."</p>
+                                        <h5 class="card-title inconsolata-font">- Steve Smedward</h5>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="assets/images/marcus-parkus.jpg" class="d-block w-100" alt="image of a user" style="max-height: 400px; object-fit: contain;">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First Slide</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/images/mary-ruth.jpg" class="d-block w-100" alt="Slide 2" style="max-height: 400px; object-fit: contain;">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Second Slide</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/images/edward-smedward.jpg" class="d-block w-100" alt="Slide 3" style="max-height: 400px; object-fit: contain;">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Third Slide</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/images/mike-michael.jpg" class="d-block w-100" alt="Slide 4" style="max-height: 400px; object-fit: contain;">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Fourth Slide</h5>
-                        <p>Some representative placeholder content for the fourth slide.</p>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
     </section>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
