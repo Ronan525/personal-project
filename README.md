@@ -68,3 +68,19 @@ Serene Space is a website designed to provide you with useful tips to improve yo
 
 11. **Testing**  
      I thoroughly tested the website to ensure it was responsive and free of bugs.
+
+
+
+## Wireframes
+
+**Home**
+
+![home-wireframe](assets/images/home%20wireframe.png)
+
+**About**
+
+![about-wireframe](assets/images/about%20wireframe.png)
+
+**Contact**
+
+![contact-wireframe](assets/images/contact%20wireframe.png)
